@@ -85,7 +85,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
     private ImageView imgViewBarcodeCaptureUseFlash;
     private ImageView imgViewSwitchCamera;
 
-    public static int SCAN_MODE = SCAN_MODE_ENUM.QR.ordinal();
+    public static int SCAN_MODE = SCAN_MODE_ENUM.BARCODE.ordinal();
 
     public enum SCAN_MODE_ENUM {
         QR,
